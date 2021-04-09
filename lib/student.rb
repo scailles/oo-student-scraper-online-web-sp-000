@@ -9,6 +9,7 @@ class Student
   @location = student_hash[:location]
   
   @@all << self 
+  
   end
 
   def self.create_from_collection(students_array)
