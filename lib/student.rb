@@ -27,7 +27,7 @@ class Student
     @profile_quote= attributes_hash[:profile_quote]
     @bio= attributes_hash[:bio]
   end
-  end
+  
 
   def self.all
     
